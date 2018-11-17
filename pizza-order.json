@@ -28,7 +28,6 @@
             ],
             "leftSide": "no sausage"
           }
-          
         },
         {
           "name": "Custom",
@@ -36,12 +35,11 @@
           "custom": 
           {
             "sauce": "standard",
-            "cheese": [
-              {
-                "all": "normal",
-                "rightSide": "double"
-              }
-            ],
+            "cheese": 
+            {
+              "all": "normal",
+              "rightSide": "double"
+            },           
             "toppings": 
             {
               "all": [
@@ -54,9 +52,7 @@
                 "double onions",
                 "pickles"
               ],
-              "leftSide": [
-                "hot sauce"
-              ]
+              "leftSide": "hot sauce"              
             }          
           }         
         }
