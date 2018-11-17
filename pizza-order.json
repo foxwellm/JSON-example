@@ -1,52 +1,52 @@
 {
-  orderNumber: 1542485206,
-  address: [
+  "orderNumber": 1542485206,
+  "address": [
     "1331 17th St LL100, Denver, CO",
     80202
   ],
-  driverNotes: "We're too wasted to come to the door, just push it through the mailbox",
-  order: [
+  "driverNotes": "We're too wasted to come to the door, just push it through the mailbox",
+  "order": [
     {
-      pizzas: [
+      "pizzas": [
         {
-          name: "Hawaiian",
-          crust: "hand tossed",
-          extraToppings: [
+          "name": "Hawaiian",
+          "crust": "hand tossed",
+          "extraToppings": [
             "double pinneapple",
             "black olives"
           ]
         },
         {
-          name: "Meat Lovers",
-          crust: "deep dish",
-          extraToppings: [
-            "double cheese",
-            rightSide: [
+          "name": "Meat Lovers",
+          "crust": "deep dish",
+          "extraToppings": [
+            "all": "double cheese",
+            "rightSide": [
               "anchovies",
               "double bacon"
             ],
-            leftSide: "no sausage"
+            "leftSide": "no sausage"
           ]
         },
         {
-          name: "Custom",
-          crust: "new york style",
-          custom: [
-            sauce: "standard",
-            cheese: [
+          "name": "Custom",
+          "crust": "new york style",
+          "custom": [
+            "sauce": "standard",
+            "cheese": [
               "normal",
-              rightSide: "double"
+              "rightSide": "double"
             ],
-            toppings: [
+            "toppings": [
               "banana peppers",
               "jalapenos",
               "green peppers",
               "mushrooms",
-              rightSide: [
+              "rightSide": [
                 "double onions",
                 "pickles"
               ],
-              leftSide: [
+              "leftSide": [
                 "hot sauce"
               ]
             ]
@@ -55,25 +55,25 @@
       ]
     }, 
     {
-      drinks: [
+      "drinks": [
         {
-          name: "Coke",
-          size: "2L",
-          quatity: 2
+          "name": "Coke",
+          "size": "2L",
+          "quatity": 2
         },
         {
-          name: "Sprite",
-          size: "2L",
-          quantity: 1
+          "name": "Sprite",
+          "size": "2L",
+          "quantity": 1
         }
       ]
     },
     {
-      sides: [
+      "sides": [
         {
-          name: "Wings",
-          size: 14,
-          sauce: [
+          "name": "Wings",
+          "size": 14,
+          "sauce": [
             "ranch",
             "BBQ"
           }
