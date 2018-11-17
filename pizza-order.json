@@ -6,72 +6,78 @@
   ],
   driverNotes: "We're too wasted to come to the door, just push it through the mailbox",
   order: [
-    pizzas: [
-      {
-        name: "Hawaiian",
-        crust: "hand tossed",
-        extraToppings: [
-          "double pinneapple",
-          "black olives"
-        ]
-      },
-      {
-        name: "Meat Lovers",
-        crust: "deep dish",
-        extraToppings: [
-          "double cheese",
-          rightSide: [
-            "anchovies",
-            "double bacon"
-          ],
-          leftSide: "no sausage"
-        ]
-      },
-      {
-        name: "Custom",
-        crust: "new york style",
-        custom: [
-          sauce: "standard",
-          cheese: [
-            "normal",
-            rightSide: "double"
-          ],
-          toppings: [
-            "banana peppers",
-            "jalapenos",
-            "green peppers",
-            "mushrooms",
+    {
+      pizzas: [
+        {
+          name: "Hawaiian",
+          crust: "hand tossed",
+          extraToppings: [
+            "double pinneapple",
+            "black olives"
+          ]
+        },
+        {
+          name: "Meat Lovers",
+          crust: "deep dish",
+          extraToppings: [
+            "double cheese",
             rightSide: [
-              "double onions",
-              "pickles"
+              "anchovies",
+              "double bacon"
             ],
-            leftSide: [
-              "hot sauce"
+            leftSide: "no sausage"
+          ]
+        },
+        {
+          name: "Custom",
+          crust: "new york style",
+          custom: [
+            sauce: "standard",
+            cheese: [
+              "normal",
+              rightSide: "double"
+            ],
+            toppings: [
+              "banana peppers",
+              "jalapenos",
+              "green peppers",
+              "mushrooms",
+              rightSide: [
+                "double onions",
+                "pickles"
+              ],
+              leftSide: [
+                "hot sauce"
+              ]
             ]
           ]
-        ]
-      }
-    ],
-    drinks: [
-      {
-        name: "Coke",
-        size: "2L",
-        quatity: 2
-      },
-      {
-        name: "Sprite",
-        size: "2L",
-        quantity: 1
-      }
-    ],
-    sides: [
-      {
-        name: "Wings",
-        size: 14,
-        sauce: [
-          "ranch",
-          "BBQ"
         }
       ]
-    ]
+    }, 
+    {
+      drinks: [
+        {
+          name: "Coke",
+          size: "2L",
+          quatity: 2
+        },
+        {
+          name: "Sprite",
+          size: "2L",
+          quantity: 1
+        }
+      ]
+    },
+    {
+      sides: [
+        {
+          name: "Wings",
+          size: 14,
+          sauce: [
+            "ranch",
+            "BBQ"
+          }
+        ]
+      ]
+    }
   }
