@@ -15,6 +15,7 @@
             "double pinneapple",
             "black olives"
           ]
+          
         },
         {
           "name": "Meat Lovers",
@@ -62,9 +63,7 @@
             }
           ]
         }
-      ]
-    }, 
-    {
+      ],
       "drinks": [
         {
           "name": "Coke",
@@ -76,9 +75,7 @@
           "size": "2L",
           "quantity": 1
         }
-      ]
-    },
-    {
+      ],
       "sides": [
         {
           "name": "Wings",
