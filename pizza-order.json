@@ -20,36 +20,46 @@
           "name": "Meat Lovers",
           "crust": "deep dish",
           "extraToppings": [
-            "all": "double cheese",
-            "rightSide": [
-              "anchovies",
-              "double bacon"
-            ],
-            "leftSide": "no sausage"
+            {
+              "whole": "double cheese",
+              "rightSide": [
+                "anchovies",
+                "double bacon"
+              ],
+              "leftSide": "no sausage"
+            }
           ]
         },
         {
           "name": "Custom",
           "crust": "new york style",
           "custom": [
-            "sauce": "standard",
-            "cheese": [
-              "normal",
-              "rightSide": "double"
-            ],
-            "toppings": [
-              "banana peppers",
-              "jalapenos",
-              "green peppers",
-              "mushrooms",
-              "rightSide": [
-                "double onions",
-                "pickles"
+            {
+              "sauce": "standard",
+              "cheese": [
+                {
+                  "all": "normal",
+                  "rightSide": "double"
+                }
               ],
-              "leftSide": [
-                "hot sauce"
+              "toppings": [
+                {
+                  "all": [
+                    "banana peppers",
+                    "jalapenos",
+                    "green peppers",
+                    "mushrooms"
+                  ],
+                  "rightSide": [
+                    "double onions",
+                    "pickles"
+                  ],
+                  "leftSide": [
+                    "hot sauce"
+                  ]
+                }
               ]
-            ]
+            }
           ]
         }
       ]
@@ -76,8 +86,9 @@
           "sauce": [
             "ranch",
             "BBQ"
-          }
-        ]
-      ]
+          ]
+        }
+      ]    
     }
-  }
+  ]
+}
